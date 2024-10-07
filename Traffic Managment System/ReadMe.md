@@ -1,1 +1,69 @@
+# Traffic Mangment System in C++
+## Overview
+This is a project developed as part of an educational exercise to practice Object-Oriented Programming (OOP) concepts in C++. The system simulates a Traffic Control System, handling various vehicle types like cars, motorcycles, and trucks. While designed for learning purposes, it may contain errors, and improvements are possible as it hasn't undergone thorough testing.
+> **Note**: While designed for learning purposes, it may contain errors, and improvements are possible as it hasn't undergone thorough testing.
+
+
+
+## Interface:
+
+![image](https://github.com/user-attachments/assets/5e8162d1-f1f2-49ab-aeb9-6b825324a3d3)
+![image](https://github.com/user-attachments/assets/4446fd15-22df-4cd6-a81e-9f5f8a70391d)
+
+## Features
+
+- **Vehicle Base Class**: A base class `Vehicle` stores general information for vehicles.
+- **Derived Classes**:
+  - `Car`
+  - `Motorcycle`
+  - `Truck`
+  These classes extend the functionality of the `Vehicle` class.
+- **Traffic Control Center**: A `TrafficControlCenter` class manages and controls the flow of vehicles in the system, using random numbers to simulate real-world traffic conditions.
+- **File Handling**:
+  - Stores traffic data in `trafficdata.txt`.
+  - The traffic data is written to the file for further analysis or record-keeping.
+- **Auto-Detect and Manual Entry Options**:
+  - **Auto-Detect System**: Automatically generates traffic data using random numbers.
+  - **Manual Data Entry**: Allows users to manually input vehicle details.
+- **Tax Application**:
+  - Calculates tax based on the type of vehicle, with different rates for cars, motorcycles, and trucks.
+- **Additional Functionalities**:
+  - Includes extra classes to enhance user interaction and clarity.
+  - The system is designed to be automatic and user-friendly, though still in development.
+- **User Authentication:**:
+  - Already set login
+    
+    - Username: `jawad`
+    - Password: `1234`
+
+## Usage Instructions
+
+### How to Run:
+1. Create file `trafficdata.txt` in the same folder as the program.
+2. Open the file named `Traffic Management system.cpp`.
+3. Compile the Program using any C++ compiler like **Dev C++**.
+4. Run the Program.
+
+### Input:
+- **Auto-Detect**: Generates random traffic data for cars, motorcycles, and trucks.
+- **Manual Input**: The user can manually enter details for each vehicle.
+
+### Output:
+- Displays vehicle traffic data and tax information.
+- Saves all data in `trafficdata.txt` file.
+
+
+
+## Limitations and Improvements
+- **Testing**: The program hasn't been fully tested, so there may be bugs or unexpected behavior.
+- **Improvements**: Further optimization and feature enhancements are possible.
+
+
+## Purpose
+This project is designed purely for educational purposes to learn **OOP concepts in C++**. It is not intended for real-world use and may require further refinement.
+
+
+## License
+
+> **This project is owned by Muhammad Jawad Ahmad and is not the property of any institution. Feel free to use it for educational purposes.**
 
