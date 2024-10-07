@@ -1,14 +1,15 @@
-# Traffic Mangment System in C++
+# Traffic Management System in C++
 ## Overview
-This is a project developed as part of an educational exercise to practice Object-Oriented Programming (OOP) concepts in C++. The system simulates a Traffic Control System, handling various vehicle types like cars, motorcycles, and trucks. While designed for learning purposes, it may contain errors, and improvements are possible as it hasn't undergone thorough testing.
+This is a project developed as part of an educational exercise to practice Object-Oriented Programming (OOP) concepts in C++. The system simulates a Traffic Management System, handling various vehicle types like cars, motorcycles, and trucks. While designed for learning purposes, it may contain errors, and improvements are possible as it hasn't undergone thorough testing.
 > **Note**: While designed for learning purposes, it may contain errors, and improvements are possible as it hasn't undergone thorough testing.
 
 
 
 ## Interface:
 
-![image](https://github.com/user-attachments/assets/5e8162d1-f1f2-49ab-aeb9-6b825324a3d3)
-![image](https://github.com/user-attachments/assets/4446fd15-22df-4cd6-a81e-9f5f8a70391d)
+![1](https://github.com/user-attachments/assets/20221fdb-c9f1-4029-8a35-722346b92afb)
+![2](https://github.com/user-attachments/assets/8527b1ff-5276-408e-b3a6-ca883ed8ac32)
+
 
 ## Features
 
@@ -31,7 +32,7 @@ This is a project developed as part of an educational exercise to practice Objec
   - Includes extra classes to enhance user interaction and clarity.
   - The system is designed to be automatic and user-friendly, though still in development.
 - **User Authentication:**:
-  - Already set login
+  - A preset login system with the following credentials:
     
     - Username: `jawad`
     - Password: `1234`
