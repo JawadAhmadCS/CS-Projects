@@ -113,6 +113,8 @@ This assembly language program was developed as an educational semester project 
    
 3. **Execution**:
    - Run the program, input the file name (with extension), and follow the on-screen instructions to either encrypt or decrypt the file.
+## Purpose
+This project is designed purely for educational purposes to learn **COAL concepts** and may require further refinement.
 
 
 
