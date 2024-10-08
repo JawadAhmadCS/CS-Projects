@@ -66,5 +66,5 @@ This project is designed purely for educational purposes to learn **OOP concepts
 
 ## License
 
-> **This project is owned by Muhammad Jawad Ahmad and is not the property of any institution. Feel free to use it for educational purposes.**
+> **This project is owned by [Muhammad Jawad Ahmad](https://www.linkedin.com/in/JawadAhmadCS/) and is not the property of any institution. Feel free to use it for educational purposes.**
 
