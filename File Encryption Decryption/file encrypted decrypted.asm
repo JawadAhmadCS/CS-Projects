@@ -26,6 +26,15 @@ c4 db ?
 spc db ' '
 msg1 db 'Enter file name:$'
 error_msg db "Error: Unable to open file.", 0
+
+; Personal Details and Social Media Links:
+; Author: Muhammad Jawad Ahmad
+; LinkedIn: https://www.linkedin.com/in/jawadahmadcs/
+; Instagram: https://www.instagram.com/jawadahmadcs
+; Facebook: https://www.facebook.com/JawadAhmadCS
+; GitHub: https://github.com/JawadAhmadCS
+; Blogs: https://jawadahmadcs.blogspot.com/
+
 .code
 include 'emu8086.inc'
 main proc 
@@ -570,7 +579,13 @@ pop ax
       xor al, key 
      mov passbuffer[si],al
      inc si   
-             
+; Personal Details and Social Media Links:
+; Author: Muhammad Jawad Ahmad
+; LinkedIn: https://www.linkedin.com/in/jawadahmadcs/
+; Instagram: https://www.instagram.com/jawadahmadcs
+; Facebook: https://www.facebook.com/JawadAhmadCS
+; GitHub: https://github.com/JawadAhmadCS
+; Blogs: https://jawadahmadcs.blogspot.com/         
       mov al,c3
       xor al, key 
      mov passbuffer[si],al
@@ -902,7 +917,13 @@ pop ax
     xor al,key       
     mov passbuffer[si], al
     inc si
-    
+; Personal Details and Social Media Links:
+; Author: Muhammad Jawad Ahmad
+; LinkedIn: https://www.linkedin.com/in/jawadahmadcs/
+; Instagram: https://www.instagram.com/jawadahmadcs
+; Facebook: https://www.facebook.com/JawadAhmadCS
+; GitHub: https://github.com/JawadAhmadCS
+; Blogs: https://jawadahmadcs.blogspot.com/    
     mov al, p4
     xor al,key      
     mov passbuffer[si], al   
@@ -1163,7 +1184,13 @@ pop ax
         
          cmp decrrr,2
       jz helloagaincometooo
-         
+; Personal Details and Social Media Links:
+; Author: Muhammad Jawad Ahmad
+; LinkedIn: https://www.linkedin.com/in/jawadahmadcs/
+; Instagram: https://www.instagram.com/jawadahmadcs
+; Facebook: https://www.facebook.com/JawadAhmadCS
+; GitHub: https://github.com/JawadAhmadCS
+; Blogs: https://jawadahmadcs.blogspot.com/         
        mov si,0      
        
        mov al,c1 
